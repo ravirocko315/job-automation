@@ -1,0 +1,20 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local SQLite database & generated resumes
+data/centaur.db
+data/centaur.db-journal
+data/resumes/
+data/browser_profile/
+
+# Keep personal career_graph private if you commit career_graph.example.json
+# (Or comment this out if you only commit the sample Alex Rivera profile)
+# data/career_graph.json
+
+# Environment variables
+.env
+.DS_Store

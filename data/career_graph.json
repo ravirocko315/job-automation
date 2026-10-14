@@ -1,0 +1,80 @@
+{
+  "basics": {
+    "first_name": "Alex",
+    "last_name": "Rivera",
+    "email": "alex.rivera+jobs@gmail.com",
+    "phone": "+1-555-019-2834",
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "US",
+      "remote_only": false,
+      "willing_to_relocate": true
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/alexrivera",
+      "github": "https://github.com/alexrivera",
+      "portfolio": "https://alexrivera.dev"
+    }
+  },
+  "work_authorization": {
+    "us_authorized": true,
+    "requires_sponsorship_now": false,
+    "requires_sponsorship_future": false,
+    "security_clearance": "None"
+  },
+  "preferences": {
+    "target_roles": ["Backend Engineer", "Platform Engineer", "AI Systems Engineer"],
+    "min_base_salary_usd": 140000,
+    "notice_period_days": 14,
+    "excluded_companies": ["Revature", "Canonical"]
+  },
+  "skills_inventory": [
+    {"name": "Python", "years": 5, "Category": "Languages"},
+    {"name": "TypeScript", "years": 3, "Category": "Languages"},
+    {"name": "PostgreSQL", "years": 4, "Category": "Databases"},
+    {"name": "Docker", "years": 4, "Category": "Infrastructure"},
+    {"name": "Kubernetes", "years": 2, "Category": "Infrastructure"},
+    {"name": "FastAPI", "years": 4, "Category": "Frameworks"}
+  ],
+  "experiences": [
+    {
+      "company": "Acme Cloud Systems",
+      "title": "Senior Backend Engineer",
+      "location": "Remote",
+      "start_date": "2023-03",
+      "end_date": "Present",
+      "bullet_bank": [
+        {
+          "id": "acme_1",
+          "text": "Architected high-throughput event ingestion pipeline using Python, FastAPI, and Kafka, processing 12,000+ events/sec with p99 latency under 45ms.",
+          "tags": ["backend", "python", "fastapi", "kafka", "distributed-systems", "high-scale"]
+        },
+        {
+          "id": "acme_2",
+          "text": "Reduced PostgreSQL query execution time by 62% by redesigning composite indexes and implementing Redis read-through caching.",
+          "tags": ["backend", "database", "postgresql", "redis", "performance"]
+        },
+        {
+          "id": "acme_3",
+          "text": "Built an internal LLM document-extraction microservice with structured Pydantic validation, cutting manual ops review time by 18 hours/week.",
+          "tags": ["ai", "llm", "python", "pydantic", "automation"]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "State University of Technology",
+      "degree": "B.S. in Computer Science",
+      "graduation_date": "2021-05",
+      "gpa": "3.8/4.0"
+    }
+  ],
+  "standard_disclosures": {
+    "gender": "Decline to self-identify",
+    "race_ethnicity": "Decline to self-identify",
+    "veteran_status": "I am not a protected veteran",
+    "disability_status": "I do not wish to answer"
+  }
+}
